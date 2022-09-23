@@ -32,7 +32,7 @@ class _BallState extends State<Ball> {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: FlatButton(
+      child: TextButton(
         onPressed: () {
           setState(() {
             ballNumber = Random().nextInt(5) + 1;
